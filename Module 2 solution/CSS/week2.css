@@ -1,0 +1,93 @@
+.title{
+	text-align: center;
+	color:red;
+	font-size: 25px;
+}
+
+.row {
+	display: table;
+	clear:both;
+	content: "";
+}
+
+/*Code for each column*/
+.column{
+	text-align: justify;
+	float:left;
+	border: solid black;
+	box-sizing: border-box;
+	margin: 10px;
+	width: 30%;
+	position: relative;
+}
+
+/*Color for column1*/
+.c1{
+	background-color: orange;
+}
+
+/*Color for column2*/
+.c2{
+	background-color: yellow;
+}
+
+/*Color for column3*/
+.c3{
+	background-color: green;
+}
+
+.column_title{
+	margin-top:0;
+	float:center;
+	background-color: brown;
+	border-left:solid black;
+	border-bottom: solid black;
+	position: relative;
+
+}
+
+/*Color for column1 title*/
+.c_title1{
+	background-color:black ;
+	color:yellow;
+}
+
+
+.c_title2{
+	background-color: white;
+	color:blue;
+}
+
+
+.column_data{
+	text-align:justify;
+	margin:10px;
+	word-wrap:break-word;
+	margin-top: 45px;
+	font: 40%;
+	position: relative;
+	
+	
+}
+
+@media (min-width: 991px){
+	.column1,.column2,.column3{
+		width:30%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.column1,.column2{
+		width: 45%;
+
+	}
+	.column3{
+		width:93%;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.column1,.column2,.column3{
+		width:90%;
+	}
