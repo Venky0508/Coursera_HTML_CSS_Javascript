@@ -1,98 +1,43 @@
-body {
-    font-size: 16px;
-    color: dark gray;
-    background-color: dark green;
+#column1{
+	background-color: lightblue;
+}
+
+#column2{
+	background-color: lightgreen;
+
+}
+.title{
+	text-align: center;
+
+}
+
+#column3{
+	background-color: yellow;
 }
 
 
-/** HEADER **/
 
-#header-nav {
-    background-color: strong orange;
-    border-radius: 0;
-    border: 0;
-}
 
-#header-nav button {
-    margin-top: 22px;
-}
+.content-box{
+	margin: 10px;
+		height: auto;
+	width: auto;
 
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: soft orange;
-}
-
-.navbar-collapse {
-    border-top: 0;
-}
-
-.navbar-brand, .navbar-nav li a {
-    line-height: 76px;
-    height: 76px;
-    padding-top: 0;
-}
-
-.navbar-brand h1 {
-    color: dark red;
-    font-weight: bolder;
-    font-size: 1.8em;
-}
-
-.navbar-brand a:hover {
-    text-decoration: none;
-    text-shadow: 1px 1px 1px soft red;
-}
-
-#nav-list {
-    background-color: bright orange;
-}
-
-#nav-list a {
-    /*text-align: center;*/
-    font-weight: bolder;
-    color: dark gray;
-    font-size: 1.2em;
-}
-
-#nav-list a:hover {
-    color: dark gray;
-    background-color: #fce29e;
-}
-
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid dark red;
 }
 
 
-/** END HEADER */
+.row{
+	margin:10px;
 
-
-/** HOME PAGE **/
-
-#main-content {
-    width: 92%;
-    margin-bottom: 30px;
 }
 
-#main-content h2 {
-    font-size: 2.9em;
-    font-weight: bold;
-    margin-top: 30px;
-    margin-bottom: 50px;
+.column_title{
+	
+	text-align:center;
 }
 
-#main-content h3 {
-    font-size: 1.6em;
-    font-weight: bold;
-    margin-bottom: 1em;
+.column_info{
+	text-align:justify;
+	
+	
 }
-
-#chicken-tile, #beef-tile, #sushi-tile {
-    width: 100%;
-    padding: 20px;
-    background-color:yellow;
-    margin-bottom: 60px;
-    box-shadow: 0 0 80px lime green;
-}
-
-
-/** END HOME PAGE **/
